@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+pip-selfcheck.json
+
+# Cache and output files
+chess_analyzer_cache.db
+*.pgn.db # If you ever change the cache extension
+my_games_analyzed.pgn
+*.log
+
+# IDE and OS specific
+.idea/
+.vscode/
+.DS_Store
+*.swp
